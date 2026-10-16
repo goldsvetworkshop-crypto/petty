@@ -1,4 +1,4 @@
-# ?? Petty
+# Petty
 
 > **Petty cash for autonomous AI agents.**  
 > The cryptographically hardened, policy-enforced x402 wallet engine for LangChain, Vercel AI SDK, and AutoGPT.
@@ -10,7 +10,7 @@
 
 ---
 
-## ? What is Petty?
+## What is Petty?
 
 In business, **petty cash** is a strictly capped pool of funds allocated for minor, day-to-day operations without going through formal requisition loops. 
 
@@ -20,7 +20,7 @@ When your autonomous LLM interacts with paid databases, real-time search APIs, o
 
 ---
 
-## ??? Core Guarantees
+## Core Guarantees
 
 - **No Prompt Injection Draining:** Strict per-request caps and rolling-window velocity limiters (e.g., max $1.00/min).
 - **Two Generals' Fault Tolerance:** Quarantines indeterminate states (`AMBIGUOUS`) to eliminate double-spending under network drops.
