@@ -1,0 +1,33 @@
+{
+  "name": "@petty/wallet",
+  "version": "1.0.0",
+  "description": "Petty cash for autonomous AI agents. Cryptographically hardened, policy-enforced x402 wallet engine.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "wallet",
+    "erc-4337",
+    "erc-7579",
+    "x402",
+    "micropayments",
+    "langchain",
+    "vercel-ai"
+  ],
+  "author": "Your Name <you@yourdomain.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
