@@ -30,7 +30,7 @@ When your autonomous LLM interacts with paid databases, real-time search APIs, o
 
 ---
 
-## ?? Installation
+## Installation
 
 ```bash
 npm install @petty/wallet viem
