@@ -75,9 +75,9 @@ Most Web3 wrappers fail when deployed with AI agents. Petty was engineered with 
 Requires **Node.js v20.0.0+**. Uses **`viem`** exclusively (zero `ethers` bloat).
 
 ```bash
-npm install @petty/wallet viem
+npm install @goldsvetworkshop/petty viem
 
-import { PettyClient, MemoryGuardedLocalSigner, type SessionPolicy } from "@petty/wallet";
+import { PettyClient, MemoryGuardedLocalSigner } from "@goldsvetworkshop/petty";
 import { generatePrivateKey } from "viem/accounts";
 import { parseUnits, type Address } from "viem";
 
