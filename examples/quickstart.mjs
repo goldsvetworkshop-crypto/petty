@@ -15,7 +15,7 @@ const policy = {
   validUntil: Math.floor(Date.now() / 1000) + 86400,            // 24 hours
   allowedContracts: ["0x2506F46A6D95c249E69e160eB698dF1991Fbe45C"],
   chainId: 8453,                                                // Base Mainnet
-  verifyingGateway: "0xYourSettlementContract"
+  verifyingGateway: "0x4A64b0906EE0D1318cf301C8982E6a8a018b0D49"
 };
 
 // 3. Initialize the Petty Client

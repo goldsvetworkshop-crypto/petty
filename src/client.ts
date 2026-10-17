@@ -159,7 +159,8 @@ export class PettyClient {
             "x-payment-signer": sessionAddress,
             "x-payment-nonce": nonce.toString(),
             "x-payment-token": this.policy.tokenAddress,
-            "x-payment-requesthash": requestHash
+            "x-payment-requesthash": requestHash,
+			"x-payment-validuntil": this.policy.validUntil.toString() // <-- Add this!
           }
         });
 

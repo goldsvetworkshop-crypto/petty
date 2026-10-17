@@ -1,6 +1,6 @@
 {
-  "name": "@petty/wallet",
-  "version": "1.0.0",
+  "name": "@goldsvetworkshop/petty",
+  "version": "1.0.1",
   "description": "Petty cash for autonomous AI agents. Cryptographically hardened, policy-enforced x402 wallet engine.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
